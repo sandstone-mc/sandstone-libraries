@@ -1,0 +1,8 @@
+{
+  "name": "block-test",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "@sandstone/block": "file:../dist"
+  }
+}

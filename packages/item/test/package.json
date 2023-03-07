@@ -1,0 +1,8 @@
+{
+  "name": "item-test",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "@sandstone/item": "file:../dist"
+  }
+}
