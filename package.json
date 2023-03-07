@@ -1,0 +1,27 @@
+{
+  "name": "sandstone-libraries",
+  "version": "1.0.0",
+  "description": "Official add-on functionality available at @sandstone/<library>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandstone-mc/sandstone-libraries.git"
+  },
+  "keywords": [
+    "sandstone-mc",
+    "sandstone-library"
+  ],
+  "author": "MulverineX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandstone-mc/sandstone-libraries/issues"
+  },
+  "homepage": "https://github.com/sandstone-mc/sandstone-libraries#readme",
+  "dependencies": {
+    "sandstone": "^0.14.0-alpha.20",
+    "sandstone-cli": "^0.6.5"
+  }
+}

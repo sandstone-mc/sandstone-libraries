@@ -1,0 +1,11 @@
+{
+  "name": "@sandstone/block",
+  "version": "0.0.1",
+  "description": "Tools for working with & creating blocks",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MulverineX",
+  "license": "MIT"
+}
