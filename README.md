@@ -3,8 +3,8 @@ Official add-on functionality available at @sandstone/&lt;library>
 
 ## Block
 
-## Entity
-
-## Item
-
-## Player
+## Planned Libraries
+- Entity
+- Item
+- Player
+- GUI

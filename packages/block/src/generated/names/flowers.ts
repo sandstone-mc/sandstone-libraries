@@ -1,0 +1,30 @@
+/* eslint-disable */
+/* Auto-generated */
+export const FLOWERS = [
+  'dandelion',
+  'poppy',
+  'blue_orchid',
+  'allium',
+  'azure_bluet',
+  'red_tulip',
+  'orange_tulip',
+  'white_tulip',
+  'pink_tulip',
+  'oxeye_daisy',
+  'cornflower',
+  'lily_of_the_valley',
+  'wither_rose',
+  'torchflower',
+  'sunflower',
+  'lilac',
+  'peony',
+  'rose_bush',
+  'pitcher_plant',
+  'flowering_azalea_leaves',
+  'flowering_azalea',
+  'mangrove_propagule',
+  'cherry_leaves',
+  'pink_petals',
+  'chorus_flower',
+  'spore_blossom'
+] as const

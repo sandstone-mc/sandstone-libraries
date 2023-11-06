@@ -1,0 +1,20 @@
+{
+	"files": [],
+	"references": [
+		{
+			"path": "block"
+		},
+		{
+			"path": "entity"
+		},
+		{
+			"path": "player"
+		},
+		{
+			"path": "item"
+		},
+		{
+			"path": "gui"
+		},
+	]
+}

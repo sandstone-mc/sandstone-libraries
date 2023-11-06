@@ -1,0 +1,33 @@
+/* eslint-disable */
+/* Auto-generated */
+export const REPLACEABLE_BY_TREES = [
+  'jungle_leaves',
+  'oak_leaves',
+  'spruce_leaves',
+  'dark_oak_leaves',
+  'acacia_leaves',
+  'birch_leaves',
+  'azalea_leaves',
+  'flowering_azalea_leaves',
+  'mangrove_leaves',
+  'cherry_leaves',
+  'grass',
+  'fern',
+  'dead_bush',
+  'vine',
+  'glow_lichen',
+  'sunflower',
+  'lilac',
+  'rose_bush',
+  'peony',
+  'tall_grass',
+  'large_fern',
+  'hanging_roots',
+  'pitcher_plant',
+  'water',
+  'seagrass',
+  'tall_seagrass',
+  'warped_roots',
+  'nether_sprouts',
+  'crimson_roots'
+] as const

@@ -1,8 +1,7 @@
 {
   "name": "sandstone-libraries",
-  "version": "1.0.0",
+  "private": true,
   "description": "Official add-on functionality available at @sandstone/<library>",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +20,8 @@
   },
   "homepage": "https://github.com/sandstone-mc/sandstone-libraries#readme",
   "dependencies": {
-    "sandstone": "^0.14.0-alpha.20",
-    "sandstone-cli": "^0.6.5"
+    "@types/fs-extra": "^11.0.3",
+    "fs-extra": "^11.1.1",
+    "node-fetch": "^3.3.2"
   }
 }

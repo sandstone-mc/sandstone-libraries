@@ -1,0 +1,20 @@
+/* eslint-disable */
+/* Auto-generated */
+export const OCCLUDES_VIBRATION_SIGNALS = [
+  'white_wool',
+  'orange_wool',
+  'magenta_wool',
+  'light_blue_wool',
+  'yellow_wool',
+  'lime_wool',
+  'pink_wool',
+  'gray_wool',
+  'light_gray_wool',
+  'cyan_wool',
+  'purple_wool',
+  'blue_wool',
+  'brown_wool',
+  'green_wool',
+  'red_wool',
+  'black_wool'
+] as const

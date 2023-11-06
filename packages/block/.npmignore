@@ -1,11 +1,5 @@
-.github/
-
-.sandstone/
+.sandstone
 
 node_modules/
-
-sandstone.config.ts
-
-.gitignore
 
 test/
