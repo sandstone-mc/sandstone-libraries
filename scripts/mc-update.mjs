@@ -37,7 +37,7 @@ async function generate() {
 
     properties +=
       `  ${name}: {\n` +
-      `    ${Object.entries(_properties[0]).map(([key, value]) => `${key}: ['${value.join('\', \'')}']`).join(',\n    ')}\n` +
+      `    ${Object.entries(_properties[0]).sort(([k, a], [_k, b]) => b.length - a.length).map(([key, value]) => `${key}: ['${value.join('\', \'')}']`).join(',\n    ')}\n` +
       `  },\n`
   }
 

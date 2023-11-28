@@ -13,7 +13,7 @@
     "allowSyntheticDefaultImports": true,
     "noEmit": false,
     "skipLibCheck": true,
-    "outDir": "lib",
+    "outDir": "dist",
     "forceConsistentCasingInFileNames": true 
   },
   "ts-node": {

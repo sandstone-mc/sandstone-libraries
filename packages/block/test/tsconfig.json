@@ -1,11 +1,11 @@
 {
 	"extends": "../../tsconfig-base",
 	"compilerOptions": {
-		"outDir": "../test-out"
+		"outDir": "../test-out",
+		"composite": true
 	},
-	"references": [
-		{
-			"path": "../src"
-		}
-	]
+	"files": [
+		"src/index.ts",
+		"node_modules/@sandstone-mc/block/dist/index.d.ts",
+	],
 }

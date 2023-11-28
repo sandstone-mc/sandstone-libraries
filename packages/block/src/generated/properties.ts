@@ -2,8 +2,8 @@
 /* Auto-generated */
 export const BLOCK_PROPERTIES = {
   acacia_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   acacia_door: {
@@ -27,8 +27,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   acacia_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   acacia_leaves: {
@@ -54,9 +54,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   acacia_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   acacia_trapdoor: {
@@ -78,8 +78,8 @@ export const BLOCK_PROPERTIES = {
     axis: ['x', 'y', 'z']
   },
   activator_rail: {
-    powered: ['true', 'false'],
     shape: ['north_south', 'east_west', 'ascending_east', 'ascending_west', 'ascending_north', 'ascending_south'],
+    powered: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   amethyst_cluster: {
@@ -91,18 +91,18 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   andesite_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   andesite_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   anvil: {
     facing: ['north', 'south', 'west', 'east']
@@ -119,16 +119,16 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   bamboo: {
-    age: ['0', '1'],
     leaves: ['none', 'small', 'large'],
+    age: ['0', '1'],
     stage: ['0', '1']
   },
   bamboo_block: {
     axis: ['x', 'y', 'z']
   },
   bamboo_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   bamboo_door: {
@@ -152,8 +152,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   bamboo_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   bamboo_mosaic_slab: {
@@ -161,9 +161,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   bamboo_mosaic_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   bamboo_pressure_plate: {
@@ -178,9 +178,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   bamboo_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   bamboo_trapdoor: {
@@ -209,12 +209,12 @@ export const BLOCK_PROPERTIES = {
     axis: ['x', 'y', 'z']
   },
   bee_nest: {
-    facing: ['north', 'south', 'west', 'east'],
-    honey_level: ['0', '1', '2', '3', '4', '5']
+    honey_level: ['0', '1', '2', '3', '4', '5'],
+    facing: ['north', 'south', 'west', 'east']
   },
   beehive: {
-    facing: ['north', 'south', 'west', 'east'],
-    honey_level: ['0', '1', '2', '3', '4', '5']
+    honey_level: ['0', '1', '2', '3', '4', '5'],
+    facing: ['north', 'south', 'west', 'east']
   },
   beetroots: {
     age: ['0', '1', '2', '3']
@@ -234,8 +234,8 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   birch_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   birch_door: {
@@ -259,8 +259,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   birch_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   birch_leaves: {
@@ -286,9 +286,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   birch_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   birch_trapdoor: {
@@ -346,18 +346,18 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   blackstone_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   blackstone_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   blast_furnace: {
     facing: ['north', 'south', 'west', 'east'],
@@ -418,18 +418,18 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   brick_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   brown_banner: {
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
@@ -491,8 +491,8 @@ export const BLOCK_PROPERTIES = {
     bites: ['0', '1', '2', '3', '4', '5', '6']
   },
   calibrated_sculk_sensor: {
-    facing: ['north', 'south', 'west', 'east'],
     power: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    facing: ['north', 'south', 'west', 'east'],
     sculk_sensor_phase: ['inactive', 'active', 'cooldown'],
     waterlogged: ['true', 'false']
   },
@@ -528,12 +528,12 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   chain_command_block: {
-    conditional: ['true', 'false'],
-    facing: ['north', 'east', 'south', 'west', 'up', 'down']
+    facing: ['north', 'east', 'south', 'west', 'up', 'down'],
+    conditional: ['true', 'false']
   },
   cherry_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   cherry_door: {
@@ -557,8 +557,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   cherry_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   cherry_leaves: {
@@ -584,9 +584,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   cherry_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   cherry_trapdoor: {
@@ -608,8 +608,8 @@ export const BLOCK_PROPERTIES = {
     axis: ['x', 'y', 'z']
   },
   chest: {
-    type: ['single', 'left', 'right'],
     facing: ['north', 'south', 'west', 'east'],
+    type: ['single', 'left', 'right'],
     waterlogged: ['true', 'false']
   },
   chipped_anvil: {
@@ -640,44 +640,44 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   cobbled_deepslate_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   cobbled_deepslate_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   cobblestone_slab: {
     type: ['top', 'bottom', 'double'],
     waterlogged: ['true', 'false']
   },
   cobblestone_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   cobblestone_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   cocoa: {
-    age: ['0', '1', '2'],
-    facing: ['north', 'south', 'west', 'east']
+    facing: ['north', 'south', 'west', 'east'],
+    age: ['0', '1', '2']
   },
   command_block: {
-    conditional: ['true', 'false'],
-    facing: ['north', 'east', 'south', 'west', 'up', 'down']
+    facing: ['north', 'east', 'south', 'west', 'up', 'down'],
+    conditional: ['true', 'false']
   },
   comparator: {
     facing: ['north', 'south', 'west', 'east'],
@@ -701,6 +701,9 @@ export const BLOCK_PROPERTIES = {
     open: ['true', 'false'],
     powered: ['true', 'false']
   },
+  copper_grate: {
+    waterlogged: ['true', 'false']
+  },
   copper_trapdoor: {
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
@@ -709,21 +712,21 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   crafter: {
-    crafting: ['true', 'false'],
     orientation: ['down_east', 'down_north', 'down_south', 'down_west', 'up_east', 'up_north', 'up_south', 'up_west', 'west_up', 'east_up', 'north_up', 'south_up'],
+    crafting: ['true', 'false'],
     triggered: ['true', 'false']
   },
   creeper_head: {
-    powered: ['true', 'false'],
-    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    powered: ['true', 'false']
   },
   creeper_wall_head: {
     facing: ['north', 'south', 'west', 'east'],
     powered: ['true', 'false']
   },
   crimson_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   crimson_door: {
@@ -747,8 +750,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   crimson_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   crimson_hyphae: {
@@ -766,9 +769,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   crimson_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   crimson_stem: {
@@ -794,9 +797,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   cut_copper_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   cut_red_sandstone_slab: {
@@ -843,8 +846,8 @@ export const BLOCK_PROPERTIES = {
     facing: ['north', 'south', 'west', 'east']
   },
   dark_oak_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   dark_oak_door: {
@@ -868,8 +871,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   dark_oak_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   dark_oak_leaves: {
@@ -895,9 +898,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   dark_oak_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   dark_oak_trapdoor: {
@@ -923,14 +926,14 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   dark_prismarine_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   daylight_detector: {
-    inverted: ['true', 'false'],
-    power: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+    power: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    inverted: ['true', 'false']
   },
   dead_brain_coral: {
     waterlogged: ['true', 'false']
@@ -983,8 +986,8 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   decorated_pot: {
-    cracked: ['true', 'false'],
     facing: ['north', 'south', 'west', 'east'],
+    cracked: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   deepslate: {
@@ -995,18 +998,18 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   deepslate_brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   deepslate_brick_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   deepslate_redstone_ore: {
     lit: ['true', 'false']
@@ -1016,22 +1019,22 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   deepslate_tile_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   deepslate_tile_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   detector_rail: {
-    powered: ['true', 'false'],
     shape: ['north_south', 'east_west', 'ascending_east', 'ascending_west', 'ascending_north', 'ascending_south'],
+    powered: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   diorite_slab: {
@@ -1039,26 +1042,26 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   diorite_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   diorite_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   dispenser: {
     facing: ['north', 'east', 'south', 'west', 'up', 'down'],
     triggered: ['true', 'false']
   },
   dragon_head: {
-    powered: ['true', 'false'],
-    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    powered: ['true', 'false']
   },
   dragon_wall_head: {
     facing: ['north', 'south', 'west', 'east'],
@@ -1069,8 +1072,8 @@ export const BLOCK_PROPERTIES = {
     triggered: ['true', 'false']
   },
   end_portal_frame: {
-    eye: ['true', 'false'],
-    facing: ['north', 'south', 'west', 'east']
+    facing: ['north', 'south', 'west', 'east'],
+    eye: ['true', 'false']
   },
   end_rod: {
     facing: ['north', 'east', 'south', 'west', 'up', 'down']
@@ -1080,18 +1083,18 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   end_stone_brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   end_stone_brick_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   ender_chest: {
     facing: ['north', 'south', 'west', 'east'],
@@ -1108,6 +1111,9 @@ export const BLOCK_PROPERTIES = {
     open: ['true', 'false'],
     powered: ['true', 'false']
   },
+  exposed_copper_grate: {
+    waterlogged: ['true', 'false']
+  },
   exposed_copper_trapdoor: {
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
@@ -1120,9 +1126,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   exposed_cut_copper_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   farmland: {
@@ -1179,18 +1185,18 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   granite_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   granite_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   grass_block: {
     snowy: ['true', 'false']
@@ -1260,8 +1266,8 @@ export const BLOCK_PROPERTIES = {
     facing: ['north', 'south', 'west', 'east']
   },
   grindstone: {
-    face: ['floor', 'wall', 'ceiling'],
-    facing: ['north', 'south', 'west', 'east']
+    facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling']
   },
   hanging_roots: {
     waterlogged: ['true', 'false']
@@ -1273,8 +1279,8 @@ export const BLOCK_PROPERTIES = {
     power: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
   },
   hopper: {
-    enabled: ['true', 'false'],
-    facing: ['down', 'north', 'south', 'west', 'east']
+    facing: ['down', 'north', 'south', 'west', 'east'],
+    enabled: ['true', 'false']
   },
   horn_coral: {
     waterlogged: ['true', 'false']
@@ -1320,8 +1326,8 @@ export const BLOCK_PROPERTIES = {
     has_record: ['true', 'false']
   },
   jungle_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   jungle_door: {
@@ -1345,8 +1351,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   jungle_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   jungle_leaves: {
@@ -1372,9 +1378,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   jungle_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   jungle_trapdoor: {
@@ -1422,8 +1428,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   lever: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   light: {
@@ -1573,8 +1579,8 @@ export const BLOCK_PROPERTIES = {
     facing: ['north', 'south', 'west', 'east']
   },
   mangrove_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   mangrove_door: {
@@ -1598,8 +1604,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   mangrove_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   mangrove_leaves: {
@@ -1631,9 +1637,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   mangrove_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   mangrove_trapdoor: {
@@ -1666,58 +1672,58 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   mossy_cobblestone_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   mossy_cobblestone_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   mossy_stone_brick_slab: {
     type: ['top', 'bottom', 'double'],
     waterlogged: ['true', 'false']
   },
   mossy_stone_brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   mossy_stone_brick_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   moving_piston: {
-    type: ['normal', 'sticky'],
-    facing: ['north', 'east', 'south', 'west', 'up', 'down']
+    facing: ['north', 'east', 'south', 'west', 'up', 'down'],
+    type: ['normal', 'sticky']
   },
   mud_brick_slab: {
     type: ['top', 'bottom', 'double'],
     waterlogged: ['true', 'false']
   },
   mud_brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   mud_brick_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   muddy_mangrove_roots: {
     axis: ['x', 'y', 'z']
@@ -1745,18 +1751,18 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   nether_brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   nether_brick_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   nether_portal: {
     axis: ['x', 'z']
@@ -1765,13 +1771,13 @@ export const BLOCK_PROPERTIES = {
     age: ['0', '1', '2', '3']
   },
   note_block: {
-    instrument: ['harp', 'basedrum', 'snare', 'hat', 'bass', 'flute', 'bell', 'guitar', 'chime', 'xylophone', 'iron_xylophone', 'cow_bell', 'didgeridoo', 'bit', 'banjo', 'pling', 'zombie', 'skeleton', 'creeper', 'dragon', 'wither_skeleton', 'piglin', 'custom_head'],
     note: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24'],
+    instrument: ['harp', 'basedrum', 'snare', 'hat', 'bass', 'flute', 'bell', 'guitar', 'chime', 'xylophone', 'iron_xylophone', 'cow_bell', 'didgeridoo', 'bit', 'banjo', 'pling', 'zombie', 'skeleton', 'creeper', 'dragon', 'wither_skeleton', 'piglin', 'custom_head'],
     powered: ['true', 'false']
   },
   oak_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   oak_door: {
@@ -1795,8 +1801,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   oak_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   oak_leaves: {
@@ -1822,9 +1828,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   oak_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   oak_trapdoor: {
@@ -1895,6 +1901,9 @@ export const BLOCK_PROPERTIES = {
     open: ['true', 'false'],
     powered: ['true', 'false']
   },
+  oxidized_copper_grate: {
+    waterlogged: ['true', 'false']
+  },
   oxidized_copper_trapdoor: {
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
@@ -1907,9 +1916,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   oxidized_cut_copper_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   pearlescent_froglight: {
@@ -1923,8 +1932,8 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   piglin_head: {
-    powered: ['true', 'false'],
-    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    powered: ['true', 'false']
   },
   piglin_wall_head: {
     facing: ['north', 'south', 'west', 'east'],
@@ -1967,12 +1976,12 @@ export const BLOCK_PROPERTIES = {
     facing: ['north', 'south', 'west', 'east']
   },
   piston: {
-    extended: ['true', 'false'],
-    facing: ['north', 'east', 'south', 'west', 'up', 'down']
+    facing: ['north', 'east', 'south', 'west', 'up', 'down'],
+    extended: ['true', 'false']
   },
   piston_head: {
-    type: ['normal', 'sticky'],
     facing: ['north', 'east', 'south', 'west', 'up', 'down'],
+    type: ['normal', 'sticky'],
     short: ['true', 'false']
   },
   pitcher_crop: {
@@ -1983,8 +1992,8 @@ export const BLOCK_PROPERTIES = {
     half: ['upper', 'lower']
   },
   player_head: {
-    powered: ['true', 'false'],
-    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    powered: ['true', 'false']
   },
   player_wall_head: {
     facing: ['north', 'south', 'west', 'east'],
@@ -2003,9 +2012,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   polished_andesite_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   polished_basalt: {
@@ -2016,22 +2025,22 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   polished_blackstone_brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   polished_blackstone_brick_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   polished_blackstone_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   polished_blackstone_pressure_plate: {
@@ -2042,45 +2051,45 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   polished_blackstone_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   polished_blackstone_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   polished_deepslate_slab: {
     type: ['top', 'bottom', 'double'],
     waterlogged: ['true', 'false']
   },
   polished_deepslate_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   polished_deepslate_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   polished_diorite_slab: {
     type: ['top', 'bottom', 'double'],
     waterlogged: ['true', 'false']
   },
   polished_diorite_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   polished_granite_slab: {
@@ -2088,9 +2097,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   polished_granite_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   polished_tuff_slab: {
@@ -2098,18 +2107,18 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   polished_tuff_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   polished_tuff_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   potatoes: {
     age: ['0', '1', '2', '3', '4', '5', '6', '7']
@@ -2118,8 +2127,8 @@ export const BLOCK_PROPERTIES = {
     level: ['1', '2', '3']
   },
   powered_rail: {
-    powered: ['true', 'false'],
     shape: ['north_south', 'east_west', 'ascending_east', 'ascending_west', 'ascending_north', 'ascending_south'],
+    powered: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   prismarine_brick_slab: {
@@ -2127,9 +2136,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   prismarine_brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   prismarine_slab: {
@@ -2137,18 +2146,18 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   prismarine_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   prismarine_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   pumpkin_stem: {
     age: ['0', '1', '2', '3', '4', '5', '6', '7']
@@ -2193,9 +2202,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   purpur_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   quartz_pillar: {
@@ -2206,9 +2215,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   quartz_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   rail: {
@@ -2247,36 +2256,36 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   red_nether_brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   red_nether_brick_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   red_sandstone_slab: {
     type: ['top', 'bottom', 'double'],
     waterlogged: ['true', 'false']
   },
   red_sandstone_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   red_sandstone_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   red_shulker_box: {
     facing: ['north', 'east', 'south', 'west', 'up', 'down']
@@ -2305,9 +2314,9 @@ export const BLOCK_PROPERTIES = {
     lit: ['true', 'false']
   },
   redstone_wire: {
+    power: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
     east: ['up', 'side', 'none'],
     north: ['up', 'side', 'none'],
-    power: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
     south: ['up', 'side', 'none'],
     west: ['up', 'side', 'none']
   },
@@ -2318,8 +2327,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   repeating_command_block: {
-    conditional: ['true', 'false'],
-    facing: ['north', 'east', 'south', 'west', 'up', 'down']
+    facing: ['north', 'east', 'south', 'west', 'up', 'down'],
+    conditional: ['true', 'false']
   },
   respawn_anchor: {
     charges: ['0', '1', '2', '3', '4']
@@ -2332,22 +2341,22 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   sandstone_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   sandstone_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   scaffolding: {
-    bottom: ['true', 'false'],
     distance: ['0', '1', '2', '3', '4', '5', '6', '7'],
+    bottom: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   sculk_catalyst: {
@@ -2380,8 +2389,8 @@ export const BLOCK_PROPERTIES = {
     facing: ['north', 'east', 'south', 'west', 'up', 'down']
   },
   skeleton_skull: {
-    powered: ['true', 'false'],
-    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    powered: ['true', 'false']
   },
   skeleton_wall_skull: {
     facing: ['north', 'south', 'west', 'east'],
@@ -2405,9 +2414,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   smooth_quartz_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   smooth_red_sandstone_slab: {
@@ -2415,9 +2424,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   smooth_red_sandstone_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   smooth_sandstone_slab: {
@@ -2425,9 +2434,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   smooth_sandstone_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   smooth_stone_slab: {
@@ -2454,8 +2463,8 @@ export const BLOCK_PROPERTIES = {
     facing: ['north', 'south', 'west', 'east']
   },
   spruce_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   spruce_door: {
@@ -2479,8 +2488,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   spruce_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   spruce_leaves: {
@@ -2506,9 +2515,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   spruce_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   spruce_trapdoor: {
@@ -2530,30 +2539,30 @@ export const BLOCK_PROPERTIES = {
     axis: ['x', 'y', 'z']
   },
   sticky_piston: {
-    extended: ['true', 'false'],
-    facing: ['north', 'east', 'south', 'west', 'up', 'down']
+    facing: ['north', 'east', 'south', 'west', 'up', 'down'],
+    extended: ['true', 'false']
   },
   stone_brick_slab: {
     type: ['top', 'bottom', 'double'],
     waterlogged: ['true', 'false']
   },
   stone_brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   stone_brick_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   stone_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   stone_pressure_plate: {
@@ -2564,9 +2573,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   stone_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   stonecutter: {
@@ -2669,9 +2678,12 @@ export const BLOCK_PROPERTIES = {
     age: ['0', '1']
   },
   trapped_chest: {
-    type: ['single', 'left', 'right'],
     facing: ['north', 'south', 'west', 'east'],
+    type: ['single', 'left', 'right'],
     waterlogged: ['true', 'false']
+  },
+  trial_spawner: {
+    trial_spawner_state: ['inactive', 'waiting_for_players', 'active', 'waiting_for_reward_ejection', 'ejecting_reward', 'cooldown']
   },
   tripwire: {
     attached: ['true', 'false'],
@@ -2683,8 +2695,8 @@ export const BLOCK_PROPERTIES = {
     west: ['true', 'false']
   },
   tripwire_hook: {
-    attached: ['true', 'false'],
     facing: ['north', 'south', 'west', 'east'],
+    attached: ['true', 'false'],
     powered: ['true', 'false']
   },
   tube_coral: {
@@ -2702,36 +2714,36 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   tuff_brick_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   tuff_brick_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   tuff_slab: {
     type: ['top', 'bottom', 'double'],
     waterlogged: ['true', 'false']
   },
   tuff_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   tuff_wall: {
     east: ['none', 'low', 'tall'],
     north: ['none', 'low', 'tall'],
     south: ['none', 'low', 'tall'],
+    west: ['none', 'low', 'tall'],
     up: ['true', 'false'],
-    waterlogged: ['true', 'false'],
-    west: ['none', 'low', 'tall']
+    waterlogged: ['true', 'false']
   },
   turtle_egg: {
     eggs: ['1', '2', '3', '4'],
@@ -2754,8 +2766,8 @@ export const BLOCK_PROPERTIES = {
     facing: ['north', 'south', 'west', 'east']
   },
   warped_button: {
-    face: ['floor', 'wall', 'ceiling'],
     facing: ['north', 'south', 'west', 'east'],
+    face: ['floor', 'wall', 'ceiling'],
     powered: ['true', 'false']
   },
   warped_door: {
@@ -2779,8 +2791,8 @@ export const BLOCK_PROPERTIES = {
     powered: ['true', 'false']
   },
   warped_hanging_sign: {
-    attached: ['true', 'false'],
     rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    attached: ['true', 'false'],
     waterlogged: ['true', 'false']
   },
   warped_hyphae: {
@@ -2798,9 +2810,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   warped_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   warped_stem: {
@@ -2838,6 +2850,9 @@ export const BLOCK_PROPERTIES = {
     open: ['true', 'false'],
     powered: ['true', 'false']
   },
+  waxed_copper_grate: {
+    waterlogged: ['true', 'false']
+  },
   waxed_copper_trapdoor: {
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
@@ -2850,9 +2865,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   waxed_cut_copper_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   waxed_exposed_copper_bulb: {
@@ -2866,6 +2881,9 @@ export const BLOCK_PROPERTIES = {
     open: ['true', 'false'],
     powered: ['true', 'false']
   },
+  waxed_exposed_copper_grate: {
+    waterlogged: ['true', 'false']
+  },
   waxed_exposed_copper_trapdoor: {
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
@@ -2878,9 +2896,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   waxed_exposed_cut_copper_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   waxed_oxidized_copper_bulb: {
@@ -2894,6 +2912,9 @@ export const BLOCK_PROPERTIES = {
     open: ['true', 'false'],
     powered: ['true', 'false']
   },
+  waxed_oxidized_copper_grate: {
+    waterlogged: ['true', 'false']
+  },
   waxed_oxidized_copper_trapdoor: {
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
@@ -2906,9 +2927,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   waxed_oxidized_cut_copper_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   waxed_weathered_copper_bulb: {
@@ -2922,6 +2943,9 @@ export const BLOCK_PROPERTIES = {
     open: ['true', 'false'],
     powered: ['true', 'false']
   },
+  waxed_weathered_copper_grate: {
+    waterlogged: ['true', 'false']
+  },
   waxed_weathered_copper_trapdoor: {
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
@@ -2934,9 +2958,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   waxed_weathered_cut_copper_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   weathered_copper_bulb: {
@@ -2950,6 +2974,9 @@ export const BLOCK_PROPERTIES = {
     open: ['true', 'false'],
     powered: ['true', 'false']
   },
+  weathered_copper_grate: {
+    waterlogged: ['true', 'false']
+  },
   weathered_copper_trapdoor: {
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
@@ -2962,9 +2989,9 @@ export const BLOCK_PROPERTIES = {
     waterlogged: ['true', 'false']
   },
   weathered_cut_copper_stairs: {
+    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     facing: ['north', 'south', 'west', 'east'],
     half: ['top', 'bottom'],
-    shape: ['straight', 'inner_left', 'inner_right', 'outer_left', 'outer_right'],
     waterlogged: ['true', 'false']
   },
   weeping_vines: {
@@ -3006,8 +3033,8 @@ export const BLOCK_PROPERTIES = {
     facing: ['north', 'south', 'west', 'east']
   },
   wither_skeleton_skull: {
-    powered: ['true', 'false'],
-    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    powered: ['true', 'false']
   },
   wither_skeleton_wall_skull: {
     facing: ['north', 'south', 'west', 'east'],
@@ -3046,8 +3073,8 @@ export const BLOCK_PROPERTIES = {
     facing: ['north', 'south', 'west', 'east']
   },
   zombie_head: {
-    powered: ['true', 'false'],
-    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+    rotation: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+    powered: ['true', 'false']
   },
   zombie_wall_head: {
     facing: ['north', 'south', 'west', 'east'],

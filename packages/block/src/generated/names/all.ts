@@ -933,6 +933,7 @@ export const BLOCK_NAMES = [
   'torchflower',
   'torchflower_crop',
   'trapped_chest',
+  'trial_spawner',
   'tripwire',
   'tripwire_hook',
   'tube_coral',
