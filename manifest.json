@@ -1,0 +1,8 @@
+{
+    "libraries": [
+        {
+            "name": "block",
+            "package": "@sandstone-mc/block"
+        }
+    ]
+}
