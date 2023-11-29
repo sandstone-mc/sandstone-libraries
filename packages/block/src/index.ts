@@ -826,7 +826,7 @@ type RemapToLiterals<Type> = {
 
 type PropertiesOfName<NAME extends LiteralUnion<typeof BLOCK_NAMES[number]> | DataPointClass | Score | number | undefined> = NAME extends GetKeys<typeof BLOCK_PROPERTIES> ? Partial<RemapToLiterals<typeof BLOCK_PROPERTIES>[NAME]> : Record<string, string>
 
-class BlockClass<NAME extends LiteralUnion<typeof BLOCK_NAMES[number]> | DataPointClass | undefined, PROPERTIES extends PropertiesOfName<NAME> | DataPointClass | undefined> extends ConditionClass {
+export class BlockClass<NAME extends LiteralUnion<typeof BLOCK_NAMES[number]> | DataPointClass | undefined, PROPERTIES extends PropertiesOfName<NAME> | DataPointClass | undefined> extends ConditionClass {
     
     private num?: number | Score
 
@@ -1062,8 +1062,6 @@ export function Blocks(start: Coordinates<false> = '~ ~ ~', end: Coordinates<fal
 
 export type BlockSet = typeof BlockSetClass
 
-export type Block = typeof BlockClass
-
 export const defaultBlocks = BlockSet(BLOCK_NAMES)
 
-export default defaultBlocks.Block
+export const Block = defaultBlocks.Block

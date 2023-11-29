@@ -1,6 +1,6 @@
 {
   "name": "@sandstone-mc/block",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tools for working with & creating blocks in Sandstone",
   "type": "module",
   "module": "dist/index.js",
