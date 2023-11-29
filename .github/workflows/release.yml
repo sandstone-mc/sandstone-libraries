@@ -19,11 +19,10 @@ jobs:
           version: 8
       - run: pnpm install -f --production
       # Eventually this will be a loop over all packages
-      - run: cd packages/block
-      - run: pnpm run build
-      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ./.npmrc
+      - run: cd packages/block && pnpm run build
+      - run: cd packages/block && echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ./.npmrc
         env:
           NPM_TOKEN: ${{secrets.npm_token}}
-      - run: npm publish
+      - run: cd packages/block && npm publish
         env:
           NPM_TOKEN: ${{secrets.npm_token}}
