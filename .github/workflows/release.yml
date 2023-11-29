@@ -17,7 +17,7 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
-      - run: pnpm install -f --production
+      - run: pnpm install
       # Eventually this will be a loop over all packages
       - run: cd packages/block && pnpm run build
       - run: cd packages/block && echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ./.npmrc
