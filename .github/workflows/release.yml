@@ -1,0 +1,30 @@
+name: Node.js Publish Release
+
+on:
+  release:
+    types: [released]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 20
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - run: pnpm install -f --production
+      - run: pnpm install @types/node
+      # Eventually this will be a loop over all packages
+      - run: cd packages/block
+      - run: pnpm run build
+      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ./.npmrc
+        env:
+          NPM_TOKEN: ${{secrets.npm_token}}
+      - run: npm publish
+        env:
+          NPM_TOKEN: ${{secrets.npm_token}}

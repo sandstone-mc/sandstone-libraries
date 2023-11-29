@@ -5,8 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "@sandstone-mc/block": "link:..",
-    "sandstone": "link:../../../../sandstone",
-    "sandstone-cli": "link:../../../../sandstone-cli"
+    "sandstone": "1.0.0-alpha.6",
+    "sandstone-cli": "^1.1.9"
   },
   "devDependencies": {
     "sandstone-build": "^1.0.7",
