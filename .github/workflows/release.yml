@@ -18,7 +18,6 @@ jobs:
         with:
           version: 8
       - run: pnpm install -f --production
-      - run: pnpm install @types/node
       # Eventually this will be a loop over all packages
       - run: cd packages/block
       - run: pnpm run build
