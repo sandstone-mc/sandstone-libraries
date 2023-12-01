@@ -1,4 +1,4 @@
-import Block, { defaultBlocks } from '@sandstone-mc/block/dist/index.js'
+import { defaultBlocks } from '@sandstone-mc/block'
 import { MCFunction, Variable, execute, sandstonePack } from 'sandstone'
 
 
@@ -9,7 +9,7 @@ MCFunction('test', () => {
 
     //defaultBlocks.from('num', test, 'world')
 
-    //defaultBlocks.from('nbt', {}, 'num')
+    defaultBlocks.from('nbt', {}, 'num')
 })
 
 export default sandstonePack

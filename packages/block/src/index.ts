@@ -366,7 +366,7 @@ class BlockSetClass<NAMES extends readonly string[]> extends ConditionClass {
                 initMCFunction.push(() => statesPoint.set(states))
 
                 MCFunction(`sandstone_block:nbt_to_world${this.id}_inner`, [input], () => {
-                    Macro.setblock('~ ~ ~', input.Macro`States[${input}].Block`)
+                    Macro.setblock('~ ~ ~', Macro`States[${input}].Block`)
                 })()
             })
 
@@ -524,7 +524,7 @@ class BlockSetClass<NAMES extends readonly string[]> extends ConditionClass {
 
                 returnCmd.run(() => {
                     MCFunction(`sandstone_block:nbt_to_num${this.id}_inner`, [input], () => {
-                        Macro.returnCmd.run.data.get.storage(statesPoint.currentTarget, input.Macro`States[${input}].Num`)
+                        Macro.returnCmd.run.data.get.storage(statesPoint.currentTarget, Macro`States[${input}].Num`)
                     })()
                 })
             })
@@ -750,10 +750,10 @@ class BlockSetClass<NAMES extends readonly string[]> extends ConditionClass {
 
                     const num = Data('storage', 'sandstone_block:nbt_to_num', 'Output')
 
-                    Macro.data.modify.storage(num.currentTarget, 'Output').set.from.storage(statesPoint.currentTarget, input.Macro`States[${input}].Num`)
+                    Macro.data.modify.storage(num.currentTarget, 'Output').set.from.storage(statesPoint.currentTarget, Macro`States[${input}].Num`)
 
                     MCFunction(`sandstone_block:nbt_to_${name}${this.id}_inner_inner`, [num], () => {
-                        Macro.functionCmd(num.Macro`sandstone_block:nbt_to_${name}${this.id}_${num}`)
+                        Macro.functionCmd(Macro`sandstone_block:nbt_to_${name}${this.id}_${num}`)
                     })
                 })()
             })

@@ -5,11 +5,11 @@
   "license": "MIT",
   "dependencies": {
     "@sandstone-mc/block": "link:..",
-    "sandstone": "1.0.0-alpha.6",
-    "sandstone-cli": "^1.1.9"
+    "sandstone": "1.0.0-beta.0",
+    "sandstone-cli": "^1.1.11"
   },
   "devDependencies": {
-    "sandstone-build": "^1.0.7",
+    "sandstone-build": "^1.0.8",
     "ts-node": "^10.9.1"
   }
 }
