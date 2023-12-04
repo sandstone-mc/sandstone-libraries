@@ -28,7 +28,7 @@ class IfBlockConditionClass extends SingleConditionNode {
     }
 }
 
-class BlockSetClass<NAMES extends readonly string[]> extends ConditionClass {
+export class BlockSetClass<NAMES extends readonly string[]> extends ConditionClass {
 
     private generated: Record<string, [MCFunctionClass<undefined, undefined>, ...(Score | DataPointClass)[]]> = {}
 
@@ -1059,8 +1059,6 @@ class IfBlocksConditionClass extends SingleConditionNode {
 export function Blocks(start: Coordinates<false> = '~ ~ ~', end: Coordinates<false> = '~ ~ ~', destination: Coordinates<false> = '~ ~ ~', scanMode: 'all' | 'masked' = 'all') {
     return new IfBlocksConditionClass(sandstonePack.core, start, end, destination, scanMode)
 }
-
-export type BlockSet = typeof BlockSetClass
 
 export const defaultBlocks = BlockSet(BLOCK_NAMES)
 
