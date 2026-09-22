@@ -92,13 +92,6 @@ packages:
     resolution: {integrity: sha512-/s55Jujywdw/Jpan+vsy6JZs1z2ZTGxTmbZTPiuSL2wz9mfzA2gN1zzaqmvfi4pq+uOt7Du85fkiwv5ymW84aQ==}
     dev: false
 
-  /@smithed-mc/data-types@0.1.2:
-    resolution: {integrity: sha512-V03jQcBosFrJ5ei74leYiqUIDLcb3GA++Equzw7wAukQ3vB9zgJgX00ypSjmIgpoSDkJmz5T4suC/YM/N2Wnqw==}
-    dependencies:
-      '@sinclair/typebox': 0.25.24
-      semver: 7.5.4
-    dev: false
-
   /@tsconfig/node10@1.0.9:
     resolution: {integrity: sha512-jNsYVVxU8v5g43Erja32laIDHXeoNvFEpX33OK4d6hljo3jDhCBDhx5dhCCTMWUojscpAagGiRkBKxpdl9fxqA==}
     dev: true
@@ -999,7 +992,6 @@ packages:
     engines: {node: '>=12.22.3'}
     dependencies:
       '@sinclair/typebox': 0.31.28
-      '@smithed-mc/data-types': 0.1.2
       '@types/adm-zip': 0.5.5
       '@types/fs-extra': 11.0.3
       '@types/lodash': 4.14.202
